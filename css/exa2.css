@@ -1,0 +1,223 @@
+
+body
+
+{
+
+    background: rgba(232, 216, 238  , 0.7);
+
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+    color: #181818;
+
+}
+
+
+#main_wrapper
+
+{
+
+    width: 900px;
+
+    margin: auto;
+
+}
+
+
+section h1, footer h1, nav a, aside h3, caption 
+
+{
+
+    font-family:  serif;
+
+    font-weight: normal;
+
+    text-transform: uppercase;
+
+}
+
+/* Encabezado */
+ 
+
+#main_title
+{
+    display: inline-block;
+}
+
+header h1
+{
+    font-family: serif;
+    font-size: 2.5em;
+    font-weight: normal;
+   
+}
+
+ header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('../imagenes_video/fotoindex1.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19; /* efectos de sombra <offset-x> <offset-y> <blur-radius>*/
+    margin-bottom: 25px;
+}
+
+
+#description
+{ 
+    position: absolute;
+    bottom: 0;/*Distancia entre el borde inferior del elemento y el borde inferior de su bloque contenedor*/
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8); /* Los navegadores nuevos leerán esto */
+    color: white;
+    font-size: 0.8em;
+}
+
+
+/* Navegación */
+
+nav
+{
+  
+    width: 740px;
+    padding-left: 150px;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: rgb( 108, 52, 131 ) ;
+    border-bottom: 3px solid rgb( 108, 52, 131 ) ;
+}
+
+
+/* Cuerpo */
+
+article, aside
+{
+    display: inline-block;
+   
+}
+
+article
+{
+   width: 425px;
+   margin-left: 150px;
+   margin-top: 3%;
+   background-color: #c1c1c1;
+   text-align: center;
+   padding: 10px;
+   border-radius: 10px;
+   
+ }
+
+
+
+article p
+{
+    font-size: 0.8em;
+    text-align: left;
+
+}
+
+
+aside
+{
+    float: left;
+    width: 235px;
+    background-color: rgb(163, 144, 171  ) ;
+    box-shadow: 0px 2px 5px #1c1a19; /* Efecto sombreado <offset-x> <offset-y> <radius> <color> */
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside div{
+    padding: 3px;
+    background-color: #988C89;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+
+aside img
+{
+    margin-right: 5px;
+}
+
+
+/* Pie de página */
+
+footer
+{
+   margin-top: 90px;
+   text-align: center;
+   padding: 20px;
+   font-family: sans-serif; 
+}
+
+
+footer p
+{
+
+    font-size: 0.8em;
+
+}
+
+.separador
+{ background:  url('../imagenes_video/separateur.png') repeat-x;
+ height: 20px;
+ margin-top: 25px;
+}
+
+ /* Tambien se puede realizar con un color de fondo
+.separador
+{ 
+    background-color: grey;
+    height: 2px;
+    margin-top: 25px;
+
+    }
+
+*/
+
+
+
+
+
+
+
+
